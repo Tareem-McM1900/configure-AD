@@ -6,11 +6,13 @@
 This tutorial deeper dive into the Configuring Active Directory inside the Virtual Machine<br />
 
 
-<h2>Repersentation of osTicket on a Virtual Machine</h2>
+<h2>Repersentation of Active Directory inside the Virtual Machine</h2>
 
 
 <p>
-<img src="https://i.imgur.com/nR0aP2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<p>
+<img src="https://i.imgur.com/ziGugGh.png" height="80%" width="80%" alt="AD VM"/>
 </p>
 
 <h2>Environments and Technologies Used</h2>
