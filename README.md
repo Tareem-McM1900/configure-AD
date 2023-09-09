@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/aPHsUuY.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/gKZkTaP.png" alt="VM AD logo"/>
 </p>
 
 <h1>Configuring Active Directory inside the Virtual Machine</h1>
