@@ -26,13 +26,13 @@ This tutorial deeper dive into the Configuring Active Directory inside the Virtu
 
 - Windows 10</b> (21H2)
 
-<h2>osTicket Lifecycle and Examples</h2>
+<h2>Virtual Machine Deployment</h2>
 
 
 
 
 <p>
-<img src="https://i.imgur.com/oroGlKc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/70SuOtT.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 <p>
 
