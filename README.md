@@ -132,49 +132,6 @@ Promote DC-1 as a Domain Controller:
 <img src="https://i.imgur.com/JH4o8o6.png" height="50%" width="50%" alt="Domain Users in a VM"/>
 </p>
 
-<h3>Testing Active Directory Inside VM</h3>
-
-<h4>Testing the Active Directory (AD) setup involves various key steps and considerations:</h4>
-
-<h4>User Authentication:</h4>
-- Ensure users can log in with their domain accounts successfully.
-
-<h4>Group Membership:</h4>
-- Verify group-based access and privileges.
-
-<h4>File and Print Sharing:</h4>
-- Test sharing resources and permissions.
-
-<h4>Group Policy:</h4>
-- Apply and test policies for user and computer settings.
-
-<h4>DNS Resolution:</h4>
-- Confirm correct DNS name resolution.
-
-<h4>AD Management:</h4>
-- Use AD tools to manage users, groups, and OUs.
-
-<h4>OU Structure:</h4>
-- Ensure proper organization and Group Policy application.
-
-<h4>Remote Desktop Access:</h4>
-- Validate non-admin users' access via Remote Desktop.
-
-<h4>Security Testing:</h4>
-- Check password policies and security measures.
-
-<h4>Backup and Restore:</h4>
-- Test backup and recovery procedures.
-
-<h4>Monitoring and Alerts:</h4>
-- Set up monitoring for real-time issue detection.
-<p>
-<p>
-<img src="https://i.imgur.com/k8RVBhs.png" height="80%" width="80%" alt="Domain Users in a VM"/>
-</p>
-Comprehensive testing helps ensure the reliability, security, and functionality of your AD environment.
-
-
 <h2>My Closing Remarks</h2>
 
 I have successfully set up an Active Directory environment on Azure, establishing a foundation for centralized user management and network authentication. I configured essential components such as domain controllers, user accounts, and organizational units. Then I tested user authentication, group memberships, and various aspects of the Active Directory setup to ensure its functionality and security.
