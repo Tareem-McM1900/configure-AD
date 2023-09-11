@@ -66,6 +66,10 @@ This tutorial shows my deeper dive into the Configuring Active Directory inside 
 - Log in to DC-1, open Windows Firewall settings, and enable ICMPv4 for pinging.
 
 <p>
+<img src="https://i.imgur.com/s4WiqjA.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
+
+<p>
 <img src="https://i.imgur.com/70SuOtT.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 <p>
@@ -120,16 +124,17 @@ Promote DC-1 as a Domain Controller:
 
 - Log in to DC-1 as "jane_admin."
 - Open PowerShell ISE as an administrator.
-- Use created script file a Name Generator Users.ps1.
+- Use the created script file a Name Generator Users.ps1.
 - Run the script to create additional user accounts.
 - Verify the accounts in the appropriate OU in ADUC.
 - Attempt to log in to Client-1 with one of the newly created accounts using the respective password mentioned in the script. (Password1)
+<p>
+<img src="https://i.imgur.com/JH4o8o6.png" height="50%" width="50%" alt="Domain Users in a VM"/>
+</p>
 
+<h3>Testing Active Directory Inside VM</h3>
 
-<h2>Testing Active Directory Inside VM</h2>
-
-<h3>Testing the Active Directory (AD) setup involves various key steps and considerations:</h3>
-
+<h4>Testing the Active Directory (AD) setup involves various key steps and considerations:</h4>
 
 <h4>User Authentication:</h4>
 - Ensure users can log in with their domain accounts successfully.
@@ -163,7 +168,10 @@ Promote DC-1 as a Domain Controller:
 
 <h4>Monitoring and Alerts:</h4>
 - Set up monitoring for real-time issue detection.
-
+<p>
+<p>
+<img src="https://i.imgur.com/k8RVBhs.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 Comprehensive testing helps ensure the reliability, security, and functionality of your AD environment.
 
 
