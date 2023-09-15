@@ -3,7 +3,7 @@
 </p>
 
 <h1>Configuring Active Directory inside the Virtual Machine</h1>
-This tutorial shows my deeper dive into the Configuring Active Directory inside the Virtual Machine<br />
+This tutorial shows my deeper dive into the Configuring of Active Directory inside the Virtual Machine<br />
 
 
 <h2>Repersentation of Active Directory inside the Virtual Machine</h2>
