@@ -12,7 +12,7 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 <p>
   
 <p>
-<img src="https://i.imgur.com/ziGugGh.png" height="80%" width="80%" alt="AD VM"/>
+<img src="https://i.imgur.com/Gvb89P4.png" height="80%" width="80%" alt="AD VM"/>
 </p>
 
 
@@ -27,13 +27,6 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 
 - Windows 10</b> (21H2)
 - Windows Server 2022 Datacenter
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-- PowerShell 
 
 <h2>Virtual Machine Deployment</h2>
 
