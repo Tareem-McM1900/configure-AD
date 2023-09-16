@@ -12,7 +12,7 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 <p>
   
 <p>
-<img src="https://i.imgur.com/Gvb89P4.png" height="80%" width="80%" alt="AD VM"/>
+<img src="https://i.imgur.com/pG07kCh.png" height="80%" width="80%" alt="AD VM"/>
 </p>
 
 
@@ -63,7 +63,7 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 </p>
 
 <p>
-<img src="https://i.imgur.com/70SuOtT.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+<img src="https://i.imgur.com/ncEB37Y.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 <p>
 <h2>Active Directory Setup</h2>
