@@ -125,6 +125,8 @@ Promote DC-1 as a Domain Controller:
 <img src="https://i.imgur.com/JH4o8o6.png" height="50%" width="50%" alt="Domain Users in a VM"/>
 </p>
 
+<h3>Step 10 Is Testing, I Tested this AD in another project, See: AD Testing</h3>
+
 <h2>My Closing Remarks</h2>
 
 I have successfully set up an Active Directory environment on Azure, establishing a foundation for centralized user management and network authentication. I configured essential components such as domain controllers, user accounts, and organizational units. Then I tested user authentication, group memberships, and various aspects of the Active Directory setup to ensure its functionality and security.
