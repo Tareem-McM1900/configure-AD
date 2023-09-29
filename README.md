@@ -39,7 +39,9 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 - Create a new Virtual Network (VNet) in the same region as the Resource Group.
 
 - Make note of the Resource Group and VNet names as you'll need them later.
-
+<p>
+<img src="https://i.imgur.com/YaeIK2N.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 <h3>Step 2: Configure DC-1 (Domain Controller)</h3>
 
 - Create a Windows Server 2022 virtual machine named "DC-1" in the Resource Group and VNet created in Step 1.
@@ -48,6 +50,9 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 
 - Ensure that DC-1 is in the same VNet as the Client-1.
 
+<p>
+<img src="https://i.imgur.com/4cHJHts.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 <h3>Step 3: Ensure Connectivity</h3>
 
 - Use Azure Network Watcher to confirm that both DC-1 and Client-1 are in the same VNet.
@@ -59,11 +64,11 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 - Log in to DC-1, open Windows Firewall settings, and enable ICMPv4 for pinging.
 
 <p>
-<img src="https://i.imgur.com/s4WiqjA.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+<img src="https://i.imgur.com/gs1tJZe.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/ncEB37Y.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+<img src="https://i.imgur.com/I0uMSeR.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 <p>
 <h2>Active Directory Setup</h2>
@@ -82,7 +87,9 @@ Promote DC-1 as a Domain Controller:
 - Follow the wizard to complete the promotion.
 - After the promotion is complete, restart DC-1.
 - Log back in as the user "mydomain.com\labuser."
-
+<p>
+<img src="https://i.imgur.com/UpwEfDv.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 <h3>Step 5: Create User Accounts in AD</h3>
 
 - Open "Active Directory Users and Computers" (ADUC) on DC-1.
@@ -91,7 +98,9 @@ Promote DC-1 as a Domain Controller:
 - Create a new employee user named "Jane Doe" with the username "jane_admin" and the same password.
 - Add "jane_admin" to the "Domain Admins" Security Group.
 - Log out of the Remote Desktop session and log back in as "mydomain.com\jane_admin."
-
+<p>
+<img src="https://i.imgur.com/UpwEfDv.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 <h3>Step 6: Join Client-1 to the Domain</h3>
 
 - In the Azure Portal, set Client-1's DNS settings to point to DC-1's Private IP address.
