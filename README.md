@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/gKZkTaP.png" alt="VM AD logo"/>
 </p>
 
-<h1>Configuring Active Directory inside the Virtual Machine</h1>
+  <h1>Configuring Active Directory inside the Virtual Machine</h1>
 This tutorial shows my deeper dive into the Configuring of Active Directory inside the Virtual Machine<br />
 
 
