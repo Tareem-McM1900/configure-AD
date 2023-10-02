@@ -12,16 +12,43 @@ This tutorial shows my deeper dive into the Configuring of Active Directory insi
 <p>
   
 <p>
-<img src="https://i.imgur.com/pG07kCh.png" height="80%" width="80%" alt="AD VM"/>
+<img src="https://i.imgur.com/nW4Y9y1.png" height="80%" width="80%" alt="AD VM"/>
 </p>
 
 
 <h2>Environments and Technologies Used</h2>
+In a project involving setting up Active Directory within a Microsoft Azure Virtual Network, the following environments, programming languages, and technologies were used:
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-- PowerShell
+<h4>Environments</h4>
+
+-  Microsoft Azure Cloud Environment
+-  On-Premises Environment
+
+<h4>Programming Languages</h4>
+
+-  PowerShell
+
+<h4>Technologies/Applications/Services</h4>
+
+-  Azure Virtual Machines (VMs)
+-  Active Directory Domain Services (AD DS)
+-  Remote Desktop
+-  Internet Information Services (IIS)
+-  DNS (Domain Name System)
+-  Azure Active Directory (Azure AD)
+-  Group Policy Objects (GPOs)
+-  Azure Virtual Network
+-  Azure Resource Manager (ARM) Templates
+-  PowerShell Azure Module
+-  Azure Active Directory Connect (Azure AD Connect)
+-  Monitoring and Management Tools
+-  Firewalls and Network Security Groups (NSGs)
+-  Azure Backup and Azure Site Recovery
+
+  
+ 
+These technologies, languages, and services work together to create a robust Active Directory infrastructure within an Azure Virtual Network, providing identity management, security, and network services for cloud-based and hybrid environments.
+
 
 <h2>Operating Systems Used </h2>
 
@@ -99,7 +126,10 @@ Promote DC-1 as a Domain Controller:
 - Add "jane_admin" to the "Domain Admins" Security Group.
 - Log out of the Remote Desktop session and log back in as "mydomain.com\jane_admin."
 <p>
-<img src="https://i.imgur.com/UpwEfDv.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+<img src="https://i.imgur.com/09qMyH1.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
+<p>
+<img src="https://i.imgur.com/7BcDoSO.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 <h3>Step 6: Join Client-1 to the Domain</h3>
 
@@ -109,7 +139,9 @@ Promote DC-1 as a Domain Controller:
 - Join Client-1 to the domain (mydomain.com).
 - The computer will restart automatically.
 - Log in to DC-1 using Remote Desktop and verify that Client-1 appears in ADUC under the "Computers" container.
-
+<p>
+<img src="https://i.imgur.com/5sYNuMx.png" height="80%" width="80%" alt="Domain Users in a VM"/>
+</p>
 <h3>Step 7: Organize Clients in an OU (Optional)</h3>
 
 - Create a new OU in ADUC named "_CLIENTS."
