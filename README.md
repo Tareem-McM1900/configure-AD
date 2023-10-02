@@ -165,7 +165,7 @@ Promote DC-1 as a Domain Controller:
 - Verify the accounts in the appropriate OU in ADUC.
 - Attempt to log in to Client-1 with one of the newly created accounts using the respective password mentioned in the script. (Password1)
 <p>
-<img src="https://i.imgur.com/sD7whee.png" height="50%" width="50%" alt="Domain Users in a VM"/>
+<img src="https://i.imgur.com/YqE1qHU.png" height="80%" width="80%" alt="Domain Users in a VM"/>
 </p>
 
 <h3>Step 10 Is Testing, I Tested this AD in another project, See: AD Testing</h3>
