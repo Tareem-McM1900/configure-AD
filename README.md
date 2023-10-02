@@ -172,10 +172,10 @@ Promote DC-1 as a Domain Controller:
 
 <h2>My Closing Remarks</h2>
 
-Setting up Active Directory in a Microsoft Azure Virtual Network with a domain controller and a domain-joined machine can provide you with a robust and centralized solution for managing your Windows-based network resources in the Cloud. This configuration allows for streamlined user management, enhanced security, and the ability to enforce group policies and access controls.
+<h4>Setting up Active Directory in a Microsoft Azure Virtual Network with a domain controller and a domain-joined machine can provide you with a robust and centralized solution for managing your Windows-based network resources in the Cloud. This configuration allows for streamlined user management, enhanced security, and the ability to enforce group policies and access controls.</h4>
+  
+<h4>As you continue to work with this setup, consider implementing additional best practices and security measures to protect your network and data. Regularly update and patch your virtual machines, back up critical data, and monitor network traffic for any suspicious activities. Azure provides various security features and tools to help you maintain the integrity and availability of your Active Directory environment.</h4>
 
-As you continue to work with this setup, consider implementing additional best practices and security measures to protect your network and data. Regularly update and patch your virtual machines, back up critical data, and monitor network traffic for any suspicious activities. Azure provides various security features and tools to help you maintain the integrity and availability of your Active Directory environment.
+<h4>Furthermore, keep yourself updated with the latest developments in Azure and Active Directory to leverage new features and capabilities that can enhance the efficiency and security of your network.</h4>
 
-Furthermore, keep yourself updated with the latest developments in Azure and Active Directory to leverage new features and capabilities that can enhance the efficiency and security of your network.
-
-Remember that Active Directory in Azure can scale to meet the needs of your organization, whether you have a small network or a large enterprise environment. Proper planning, configuration, and maintenance will ensure a smooth and secure operation of your Active Directory infrastructure in the Azure cloud.
+<h4>Remember that Active Directory in Azure can scale to meet the needs of your organization, whether you have a small network or a large enterprise environment. Proper planning, configuration, and maintenance will ensure a smooth and secure operation of your Active Directory infrastructure in the Azure cloud.</h4>
